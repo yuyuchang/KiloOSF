@@ -19,13 +19,13 @@ please make a copy of [cuda](https://github.com/creiser/kilonerf/tree/master/cud
 To train a model yourself run
 `bash train.sh`
 
-You can adjust the dataset by setting the dataset variable in the respective script.
-
 To test a trained model on the testing set, run
 `bash benchmark.sh`
 
 To render spiral demo, run
 `bash demo.sh`
+
+You can adjust the dataset by setting the dataset variable in the respective script.
 
 ## Acknowledgement
 
