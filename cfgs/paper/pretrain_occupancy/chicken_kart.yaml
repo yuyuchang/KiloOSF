@@ -1,0 +1,16 @@
+dataset_dir: data/chicken_kart/
+dataset_type: osf
+pretrained_cfg_path: cfgs/paper/pretrain/chicken_kart.yaml
+pretrained_checkpoint_path: logs/paper/pretrain/chicken_kart/checkpoint_0200000.pth
+resolution:
+- 256
+- 256
+- 256
+subsample_resolution:
+- 3
+- 3
+- 3
+threshold: 10
+voxel_batch_size: 16384
+global_domain_min: [-1.0, -1.0, -1.0]
+global_domain_max: [1.0, 1.0, 1.0]
